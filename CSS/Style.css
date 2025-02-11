@@ -1,0 +1,152 @@
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  p {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+.blue2 {
+    color:#48A6A7;
+}
+.blue {
+    color:#9ACBD0;
+}
+
+.flex-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.top-container {
+    background-color: #F2EFE7;
+    width: auto;
+    height: 100vh;
+}
+
+.circle-grid {
+    display: grid;
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0%;
+    padding: 0%;
+}
+
+.circle {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.blue-1  {
+    background-color: #9ACBD0;
+}
+
+.blue-2  {
+    background-color: #48A6A7;
+}
+
+.blue-3  {
+    background-color: #2973B2;
+}
+
+.c1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.c2 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.c3 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.c4 {
+    grid-column-start: 6;
+    grid-row-start: 5;
+}
+
+.c5 {
+    grid-column-start: 5;
+    grid-row-start: 6;
+}
+
+.c6 {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.middle-container {
+    height: 100vh;
+    margin: 0;
+    padding: 0%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100px 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.About-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-heading {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 0%;
+    padding: 0;
+}
+
+.skill-img {
+    border-radius: 15%;
+}
+
+.Title-text {
+    text-align: center;
+}
+.Photo-of-me {
+    margin-top: 50px;
+    border-radius: 50%;
+    float: bottom;
+}
+
+.bottom-container {
+    background-color: #F2EFE7;
+}
+
+@media (max-width:600px) {
+    .grid-container {
+        grid-template-columns: 600px;
+        grid-template-rows: auto auto auto;
+    }
+    .skill-heading {
+        grid-column: 1;
+    }
+}
